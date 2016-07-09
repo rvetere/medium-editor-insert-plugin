@@ -24,7 +24,7 @@
             Handlebars = require('handlebars/runtime');
             MediumEditor = require('medium-editor');
             require('jquery-sortable');
-            require('blueimp-file-upload');
+            require('imports?define=>false!blueimp-file-upload');
 
             factory(jQuery, Handlebars, MediumEditor);
             return jQuery;
